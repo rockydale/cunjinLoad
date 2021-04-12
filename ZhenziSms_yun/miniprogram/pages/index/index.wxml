@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 发送短信 -->
+  <view class="row">
+    <view class="row-text" bindtap="send">
+      <text>发送短信(通用)</text>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row-text" bindtap="sendCode">
+      <text>发送短信验证码</text>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row-text" bindtap="validateCode">
+      <text>核对短信验证码</text>
+    </view>
+  </view>
+
+
+  <!-- 查询余额 -->
+  <view class="row">
+    <view class="row-text" bindtap="balance">
+      <text>查询余额</text>
+    </view>
+  </view>
+
+  <!-- 查询单条信息 -->
+  <view class="row">
+    <view class="row-text" bindtap="findSmsByMessageId">
+      <text>查询单条信息</text>
+    </view>
+  </view>
+
+</view>
